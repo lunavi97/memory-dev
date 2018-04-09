@@ -59,6 +59,7 @@
 </LinearLayout>
 -->
 
+<!--
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -128,3 +129,74 @@
         android:layout_marginTop="190dp" />
 
 </RelativeLayout>
+-->
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:id="@+id/Fila1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botón 1"/>
+
+            <Button
+                android:id="@+id/Btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Botón 2"/>
+
+            <Button
+                android:id="@+id/Btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Botón 5"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Fila2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botón 3"/>
+
+        <Button
+            android:id="@+id/Btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botón 4"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Fila3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botón 6"/>
+
+        <Button
+            android:id="@+id/Btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botón 7"/>
+
+        <Button
+            android:id="@+id/Btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botón 8"/>
+    </TableRow>
+
+</TableLayout>
